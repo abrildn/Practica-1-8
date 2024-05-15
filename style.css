@@ -3,6 +3,7 @@ body {
     display: grid;
     justify-content: center;
     color: rgb(255, 255, 132);
+    font-family: "montserrat";
 }
 
 #main-title {
@@ -34,6 +35,19 @@ body {
 
 #send-button {
     margin-top: 10px;
+    background-color: rgb(255, 255, 132);
+    border: none;
+    color: rgb(36, 50, 99);
+}
+
+input {
+    font-family: "montserrat";
+}
+
+#send-button:hover {
+    background-color: rgb(17, 23, 46);
+    color: rgb(255, 255, 132);
+    transition: 0.5s;
 }
 
 #form-sent {
